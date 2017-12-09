@@ -1,0 +1,42 @@
+{
+  "name": "react-properties",
+  "version": "1.0.0",
+  "description": "example of how react properties are updated",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "compile": "webpack",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "prop-types": "^15.6.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "recompose": "^0.26.0",
+    "reprolog": "^0.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jasmine": "^2.9.1",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.12.2"
+  }
+}
